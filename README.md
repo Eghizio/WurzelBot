@@ -29,6 +29,8 @@ TODO:
 - Auto restarting and setting up after failures
 - REMOVE THE DAMN PUG/JADE XD
 
+Overall Architecture Idea:
+
 * Node.js: Server
 * Express: API + XHR
 * Mongodb & Mongoose: State of fields + logs (Maybe Redux?)
