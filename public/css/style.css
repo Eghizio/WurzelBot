@@ -1,0 +1,17 @@
+body{
+	background-color: Gray;
+}
+.buttonReq{
+	position:absolute;
+	top:40%;
+	left:40%;
+	width:100px;
+	height:20px;
+}
+td{
+	width:20px;
+	height:20px;
+	background-color:springgreen;
+	border: 1px solid red;
+}
+/* cool colour: #4D223D */

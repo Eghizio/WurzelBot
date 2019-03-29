@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>WurzelBot</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="EghizioLogoFavicon1.png">
+		<meta charset="UTF-8">
+		<script src="localforage/dist/localforage.js"></script>
+		<script src="plants.jsonp" type="text/javascript" ></script>
+    </head>
+	<body>
+	
+	<table id="fields"></table>
+	
+	<select id="dropdown"></select>
+	
+	<button onclick="dropek()">dropdown</button>
+	</br>
+	<p id="par">0</p>
+	
+	<button class="buttonReqAll" onclick="req()">Request</button>
+	<button class="buttonReqPlantAll" onclick="reqPlantAll()">Plant</button>
+	<button class="buttonReqWaterAll" onclick="reqWaterAll()">Water</button>
+	<button class="buttonReqHarvestAll" onclick="reqHarvestAll()">Harvest</button>
+	
+	
+	
+	<!--<script src="https://code.jquery.com/jquery-3.3.1.js"></script>-->
+	<script src="jQuery3.3.1.js" type="text/javascript"></script>
+	<script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
+
+<!-- 
+GET /save/pflanz.php?pflanze[]=6&feld[]=152&felder[]=152&pflanze[]=6&feld[]=169&felder[]=169&pflanze[]=6&feld[]=186&felder[]=186&pflanze[]=6&feld[]=203&felder[]=203&pflanze[]=6&feld[]=204&felder[]=204&pflanze[]=6&feld[]=187&felder[]=187&cid=3edf1f20bf35ed696a19a3e13e876f24&garden=1 HTTP/1.1 
+Host: s21.zieloneimperium.pl 
+Connection: keep-alive 
+Accept: text/javascript, text/html, application/xml, text/xml, */* 
+X-Prototype-Version: 1.7 
+X-Requested-With: XMLHttpRequest 
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 
+Referer: http://s21.zieloneimperium.pl/main.php?page=garden 
+Accept-Encoding: gzip, deflate, sdch 
+Accept-Language: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4 
+Cookie: PHPSESSID=r6m3mvha5l6u0gtdiq93ucbgg0; __gfp_64b=7yllnY53oXW8nb_1s_8PyLCrao2giUBn1pnWjp7tgib.r7; wunr=10576708; __utmt=1; __utma=1.1132776604.1522557782.1522814874.1522819800.8; __utmb=1.1.10.1522819800; __utmc=1; __utmz=1.1522557782.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+-->

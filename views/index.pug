@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title WurzelBot
+    link(rel="stylesheet", href="/css/style.css")
+    script(src="/js/jQuery3.3.1.js")
+    script(src="/js/plants.jsonp")
+    script(src="/js/main.js")
+    script(src="/js/script.js")
+  body
+    table#fields
+    select#dropdown
+    br
+    p#par 0	
+    button.buttonReqAll(onclick="req()") Request
+    button.buttonReqPlantAll(onclick="reqPlantAll()") Plant
+    button.buttonReqWaterAll(onclick="reqWaterAll()") Water
+    button.buttonReqHarvestAll(onclick="reqHarvestAll()") Harvest  	
