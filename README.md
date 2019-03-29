@@ -29,8 +29,8 @@ TODO:
 - Auto restarting and setting up after failures
 - REMOVE THE DAMN PUG/JADE XD
 
-Node.js: Server
-Express: API + XHR
-Mongodb & Mongoose: State of fields + logs (Maybe Redux?)
-Puppeteer: Headless Chromium auto log in for 2h game session
-Maybe some CSS lib/framework for better looks? (tho custom CSS is the best)
+* Node.js: Server
+* Express: API + XHR
+* Mongodb & Mongoose: State of fields + logs (Maybe Redux?)
+* Puppeteer: Headless Chromium auto log in for 2h game session
+* Maybe some CSS lib/framework for better looks? (tho custom CSS is the best)
