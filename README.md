@@ -1,4 +1,4 @@
-WurzelBot 
+WurzelBot (Currently rewriting it in MERN stack)
 
 My Bot for Wurzel Empire game using Node.js, Pug(Jade), Express, MongoDB, Puppeteer and few more.
 
