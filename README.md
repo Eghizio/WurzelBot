@@ -3,7 +3,7 @@ WurzelBot
 My Bot for Wurzel Empire game using Node.js, Pug(Jade), Express, MongoDB, Puppeteer and few more.
 
 Got to tidy this project up as it had few versions and implementations.
-First one looked like this (and please don't laught I'm serious xD):
+First one looked like this (and please don't laugh I'm serious xD):
 
 Interface: Excel
 VBA for user input and data processing to txt file.
